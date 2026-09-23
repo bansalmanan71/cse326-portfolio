@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumiMug - The Smart Coffee Mug</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                    <line x1="6" y1="1" x2="6" y2="4"></line>
+                    <line x1="10" y1="1" x2="10" y2="4"></line>
+                    <line x1="14" y1="1" x2="14" y2="4"></line>
+                </svg>
+                LumiMug
+            </div>
+            
+            <button class="hamburger" id="hamburgerBtn">
+                ☰
+            </button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#buy" class="btn">Buy Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="slide-down-animation">Never drink cold coffee again.</h1>
+            <p>The smart mug that keeps your drink at the perfect temperature all day.</p>
+        </section>
+
+        <section id="features" class="content-section">
+            <h2>Why Choose LumiMug?</h2>
+            <ul class="feature-list">
+                <li>Exact temperature control via smartphone app</li>
+                <li>Long-lasting 12-hour battery life</li>
+                <li>Premium ceramic scratch-resistant finish</li>
+            </ul>
+            
+            <div class="video-container">
+                <h3>See it in action</h3>
+                <div class="iframe-wrapper">
+                    <!-- Real Cinematic Coffee Video -->
+                    <iframe src="https://www.youtube.com/embed/LCftfZ2wZAI" title="Smart Mug Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="content-section">
+            <h2>Product Gallery</h2>
+            <div class="grid-gallery">
+                <div class="card">
+                    <img src="https://placehold.co/400x400/111111/FFFFFF?text=Classic+Black" alt="Classic Black Mug Placeholder">
+                    <p>Classic Black</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/400x400/EEEEEE/333333?text=Matte+White" alt="Matte White Mug Placeholder">
+                    <p>Matte White</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/400x400/b76e79/FFFFFF?text=Rose+Gold" alt="Rose Gold Mug Placeholder">
+                    <p>Rose Gold</p>
+                </div>
+                <div class="card">
+                    <img src="https://placehold.co/400x400/2c3e50/FFFFFF?text=Travel+Edition" alt="Travel Edition Placeholder">
+                    <p>Travel Edition</p>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 LumiMug Technologies. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="form-container">
+        <h2>Create an Account</h2>
+        
+        <form id="registrationForm" novalidate>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" autocomplete="username">
+                <span class="error-text" id="usernameError"></span>
+            </div>
 
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" autocomplete="email">
+                <span class="error-text" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <span class="error-text" id="dobError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <small>Minimum 8 characters, at least 1 uppercase and 1 number.</small>
+                <span class="error-text" id="passwordError"></span>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
